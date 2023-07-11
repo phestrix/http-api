@@ -20,7 +20,7 @@ object Tokens : Table() {
         }
     }
 
-    fun fetchTokens(): List<TokenDTO> {
+    /*fun fetchTokens(): List<TokenDTO> {
         return try {
             transaction {
                 Tokens.selectAll().toList().map {
@@ -30,5 +30,5 @@ object Tokens : Table() {
         } catch (e: Exception) {
             emptyList()
         }
-    }
+    }*/
 }
